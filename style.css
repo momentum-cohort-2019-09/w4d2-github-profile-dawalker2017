@@ -1,0 +1,111 @@
+            .container {
+                display: flex;
+                justify-content: flex-start;
+                background-color: #414134;
+                margin: 0;
+                padding: 4rem .5rem;
+                height: auto;
+                width: 100%;
+                position: relative;
+            }
+            
+            .textLeft {
+                text-align: left;
+                color: white;
+                margin: 2rem 0;
+            }
+            
+            .textLeft .name {
+                left: 70px;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                position: relative;
+                width: 200%;
+                padding: .3rem 1rem;
+                border-top-left-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                margin: 2rem;
+                z-index: 1;
+            }
+            
+            .textLeft .height {
+                left: 30px;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                position: relative;
+                width: 200%;
+                padding: .3rem 1rem;
+                border-top-left-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                margin: 2rem;
+                z-index: 1;
+            }
+            
+            .textLeft .birthyear {
+                left: 30px;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                position: relative;
+                width: 200%;
+                padding: .3rem 1rem;
+                border-top-left-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                margin: 2rem;
+                z-index: 1;
+            }
+            
+            .textLeft .homeworld {
+                left: 70px;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                position: relative;
+                width: 200%;
+                padding: .3rem 1rem;
+                border-top-left-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                margin: 2rem;
+                z-index: 1;
+            }
+            
+            .textLeft .species {
+                left: 100px;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                position: relative;
+                width: 200%;
+                padding: .3rem 1rem;
+                border-top-left-radius: 5rem;
+                border-bottom-left-radius: 5rem;
+                margin: 2rem;
+                z-index: 1;
+            }
+            
+            #mainImage {
+                border-radius: 100%;
+                border: 10px #c5c5ad solid;
+                width: 450px;
+                height: auto;
+                position: relative;
+                left: 200px;
+                z-index: 2;
+            }
+            
+            #backgroundImage {
+                border-radius: 100%;
+                border: 10px #c5c5ad solid;
+                box-shadow: 0 0 50px 10px #ffffddc9;
+                width: 450px;
+                height: auto;
+                position: relative;
+                right: 269px;
+                z-index: 0;
+            }
+            
+            .textRight {
+                padding: 1rem;
+                background-color: #666655;
+                border: 7px #c5c5ad solid;
+                color: white;
+                position: relative;
+                right: 200px;
+            }
